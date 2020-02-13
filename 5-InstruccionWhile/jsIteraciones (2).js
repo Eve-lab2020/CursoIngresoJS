@@ -3,8 +3,8 @@ function mostrar() {
 
 	while (num > 0) {
 
-		alert(" Número -1 = " + num);
-		num = num - 1;
+		console.log(" Número -1 = " + num);
+		num --;
 	}
 
 

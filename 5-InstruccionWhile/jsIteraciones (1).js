@@ -1,11 +1,11 @@
 function mostrar() {
 
 
-	var num = 0;
+	var num = 1;
 
 	while (num < 11) {
 
-		alert(" Número + 1 = " + num );
+		console.log(" Número + 1 = " + num );
 		num++;
 	}
 
