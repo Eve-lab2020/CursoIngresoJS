@@ -61,10 +61,10 @@ function Materiales() {
     var calculo2;
     var calculo3;
 
-    largo=parseFloat(document.getElementById("Largo").value);
-    ancho=parseFloat(document.getElementById("Ancho").value);
+    largo = parseFloat(document.getElementById("Largo").value);
+    ancho = parseFloat(document.getElementById("Ancho").value);
 
-    while(isNaN(largo) || isNaN(ancho) || largo < 0 || ancho < 0){
+    while (isNaN(largo) || isNaN(ancho) || largo < 0 || ancho < 0) {
 
         alert("Los datos ingresados son incorrectos, los mismos deben estar expresados en valores numéricos reales.");
 
@@ -72,11 +72,12 @@ function Materiales() {
         parseFloat(document.getElementById("Ancho").value) = ancho;
     }
 
-    calculo=largo*ancho;
-    calculo2=(calculo*2);
-    calculo3=(calculo*3);
+    calculo = largo * ancho;
+    calculo2 = (calculo * 2);
+    calculo3 = (calculo * 3);
 
-    alert("Para hacer un contrapiso de "+calculo.toFixed(2)+" mts², se necesitan : "+calculo2.toFixed(2)+" bolsas de Cemento y " +calculo3.toFixed(2)+" bolsas de Cal.");
+    alert("Para hacer un contrapiso de " + calculo.toFixed(2) + " mts², se necesitan : " + calculo2.toFixed(2) + " bolsas de Cemento y " + calculo3.toFixed(2) + " bolsas de Cal.");
 
 
-}
+}//para calcular el total de blosas tengo que hacer con un numero entero_? o puede ser fraccionario?
+//esta bien expresar π solo como 3.14?
