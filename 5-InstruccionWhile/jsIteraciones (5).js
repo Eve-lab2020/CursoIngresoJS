@@ -1,15 +1,15 @@
-function mostrar()
-{
+function mostrar() {
 
-var sexo = prompt("ingrese f ó m .");
+  var sexo = prompt("Por favor ingrese el caràcter -F- para Femenino o -M- para Masculino");
 
-while(sexo != "f" && sexo != "m" ){
+  while (sexo != "f" && sexo != "m" && sexo != "F" && sexo != "M") {
 
-  sexo=prompt("Por favor ingrese el caràcter -f(minuscula)- para Femenino o -m(minuscula)- para Masculino");
+    sexo = prompt("Por favor ingrese el caràcter -F- para Femenino o -M- para Masculino");
 
-}
+  }
 
 
-document.getElementById('Sexo').value=sexo;
+  document.getElementById('Sexo').value = sexo;
 
 }//FIN DE LA FUNCIÓN
+//como hago que en el id además de f o m diga "Sexo Masculino" o "Sexo femenino"
