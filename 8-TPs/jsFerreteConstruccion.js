@@ -18,7 +18,7 @@ function Rectangulo() {
 
     while (isNaN(largo) || isNaN(ancho) || largo < 0 || ancho < 0) {
 
-        alert("Los datos ingresados son incorrectos, los mismos deben estar expresados en valores numéricos reales.");
+        alert("Los datos ingresados no son válidos.");
 
         parseFloat(document.getElementById("Largo").value) = largo;
         parseFloat(document.getElementById("Ancho").value) = ancho;
@@ -40,7 +40,8 @@ function Circulo() {
     radio = parseFloat(document.getElementById("Radio").value);
 
     while (isNaN(radio) || radio < 0) {
-        alert("Los datos ingresados son incorrectos, los mismos deben estar expresados en valores numéricos reales.");
+        
+        alert("Los datos ingresados no son válidos.");
 
         parseFloat(document.getElementById("Radio").value) = radio;
     }
@@ -66,7 +67,7 @@ function Materiales() {
 
     while (isNaN(largo) || isNaN(ancho) || largo < 0 || ancho < 0) {
 
-        alert("Los datos ingresados son incorrectos, los mismos deben estar expresados en valores numéricos reales.");
+        alert("Los datos ingresados no son válidos.");
 
         parseFloat(document.getElementById("Largo").value) = largo;
         parseFloat(document.getElementById("Ancho").value) = ancho;
@@ -79,5 +80,5 @@ function Materiales() {
     alert("Para hacer un contrapiso de " + calculo.toFixed(2) + " mts², se necesitan : " + calculo2.toFixed(2) + " bolsas de Cemento y " + calculo3.toFixed(2) + " bolsas de Cal.");
 
 
-}//para calcular el total de blosas tengo que hacer con un numero entero_? o puede ser fraccionario?
+}//para calcular el total de bolsas tengo que hacer con un numero entero_? o puede ser fraccionario?
 //esta bien expresar π solo como 3.14?
