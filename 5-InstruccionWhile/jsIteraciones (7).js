@@ -1,6 +1,11 @@
 function mostrar()
 {
 
+
+var num;
+
+while()	
+
 	var contador=0;
 	var acumulador=0;
 	var respuesta='si';

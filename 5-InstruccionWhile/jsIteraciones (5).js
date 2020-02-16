@@ -4,7 +4,7 @@ function mostrar() {
 
   while (sexo != "f" && sexo != "m" && sexo != "F" && sexo != "M") {
 
-    sexo = prompt("Por favor ingrese el caràcter -F- para Femenino o -M- para Masculino");
+    sexo = prompt("Lo ingresado no es válido. Por favor ingrese el caràcter -F- para Femenino o -M- para Masculino");
 
   }
 
