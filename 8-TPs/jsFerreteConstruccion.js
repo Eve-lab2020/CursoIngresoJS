@@ -26,7 +26,7 @@ function Rectangulo() {
 
     calculo = largo + ancho * 2;
     calculo2 = (calculo * 3);
-    alert("Para alambrar un terreno de esta longitud, cada hilo que se desee colocar debe tener una largo de " + calculo.toFixed(2) + " mts. Por ejemplo para alambrarlo con tres hilos se necesitaría  un total de : " + calculo2.toFixed(2) + " mts.");
+    alert("Para alambrar un terreno de esta longitud, cada hilo que se desee colocar debe tener una largo de " + calculo.toFixed(2) + " mts. Por ejemplo para alambrarlo con tres hilos se necesitaría un total de : " + calculo2.toFixed(2) + " mts. de alambre");
 
 
 }
