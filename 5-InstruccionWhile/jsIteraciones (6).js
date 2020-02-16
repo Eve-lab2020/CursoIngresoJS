@@ -7,8 +7,8 @@ function mostrar()
 	var num4;
 	var num5;
 	
-	var contador=0;
-	var acumulador=0;
+	var promedio;
+	var acumulador;
 
 	num1=parseFloat(prompt("Por favor ingrese el 1er dígito : "));
 	num2=parseFloat(prompt("Por favor ingrese el 2do dígito : "));

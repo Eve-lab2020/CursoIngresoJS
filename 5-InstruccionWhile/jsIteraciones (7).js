@@ -4,7 +4,10 @@ function mostrar()
 
 var num;
 
-while()	
+while(num!="si"){
+	prompt("Ingrese los números que desee sumar, para finalizar tipee la palabra -si-");
+
+}	
 
 	var contador=0;
 	var acumulador=0;
