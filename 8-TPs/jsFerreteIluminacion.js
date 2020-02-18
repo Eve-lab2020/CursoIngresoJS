@@ -12,7 +12,7 @@ function CalcularPrecio() {
     var cant_lamparas;
     var marca;
     var precio_descuento;
-    
+
 
     var calculo;
     var calculoBruto;
@@ -104,7 +104,7 @@ function CalcularPrecio() {
         precio_descuento = calculoBruto + precio_descuento;
         document.getElementById("precioDescuento").value = precio_descuento;
 
-        alert("IIBB Usted pagó $" + calculoBruto);
+        alert("Usted pagó $" + calculoBruto+" de IIBB");
     }
 
 
