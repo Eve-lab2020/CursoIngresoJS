@@ -33,3 +33,4 @@ document.getElementById('suma').value=acumulador.toFixed(2);
 document.getElementById('promedio').value=promedio.toFixed(2);
 
 }//FIN DE LA FUNCIÓN
+//COMO INGRESAR EN EL ID ALGÚN TEXTO ADEMAS DEL PROMEDIO/ACUMULADO???

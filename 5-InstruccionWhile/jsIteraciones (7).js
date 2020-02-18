@@ -5,7 +5,7 @@ function mostrar()
 var num;
 
 while(num!="si"){
-	prompt("Ingrese los números que desee sumar, para finalizar tipee la palabra -si-");
+	prompt("Ingrese los números que desee sumar, tipee la palabra -si- para finalizar");
 
 }	
 
