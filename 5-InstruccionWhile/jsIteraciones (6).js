@@ -41,7 +41,7 @@ var promedio;
 num=parseFloat(prompt("Por favor ingrese el 1er dígito : "));
 
 
-while(num<5){
+while(contador<=5){
 
 num=parseFloat(prompt("Ingrese un numero :"));
 acumulador=acumulador + num;

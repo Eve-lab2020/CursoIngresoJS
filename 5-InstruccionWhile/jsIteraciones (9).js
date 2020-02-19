@@ -1,17 +1,25 @@
 function mostrar()
 {
 
+	var num;
 	var contador=0;
-	// declarar variables
-	
-	var respuesta='si';
+	var max;
+	var min;
 
-	while(respuesta!='no')
-	{
-		
-	
-	}
+	var respuesta="s";
 
+
+
+	do{
+		num=parseInt(prompt(" Ingrese un número"));
+		contador ++;
+
+
+
+
+
+
+	}while(respuesta =="s");
 
 
 

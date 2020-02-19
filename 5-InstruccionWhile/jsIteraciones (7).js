@@ -8,7 +8,7 @@ function mostrar()
 
 do{
 
-	numero=parseInt(prompt("Ibgrese un numero"));
+	numero=parseFloat(prompt("Ingrese un numero :"));
 	acumulador=acumulador + numero;
 	contador ++;
 	seguir=prompt("quiere continuar?")
