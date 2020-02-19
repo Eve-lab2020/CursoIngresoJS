@@ -1,7 +1,7 @@
 function mostrar()
 {
 
-	var num1;
+	/*var num1;
 	var num2;
 	var num3;
 	var num4;
@@ -30,7 +30,41 @@ function mostrar()
 	promedio=acumulador/5;
 
 document.getElementById('suma').value=acumulador.toFixed(2);
+document.getElementById('promedio').value=promedio.toFixed(2);*/
+
+
+var num;
+var contador=0;
+var acumulador=0;
+var promedio;
+
+num=parseFloat(prompt("Por favor ingrese el 1er dígito : "));
+
+
+while(num<5){
+
+num=parseFloat(prompt("Ingrese un numero :"));
+acumulador=acumulador + num;
+contador++;
+
+}
+
+promedio=acumulador/5;
+
+document.getElementById('suma').value=acumulador.toFixed(2);
 document.getElementById('promedio').value=promedio.toFixed(2);
+
+
+
+
+
+
+
+
+
+
+
+
 
 }//FIN DE LA FUNCIÓN
 //COMO INGRESAR EN EL ID ALGÚN TEXTO ADEMAS DEL PROMEDIO/ACUMULADO???

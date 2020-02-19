@@ -1,17 +1,23 @@
 function mostrar()
 {
 
-
-var num;
-
-while(num!="si"){
-	prompt("Ingrese los números que desee sumar, tipee la palabra -si- para finalizar");
-
-}	
-
+	var numero;
 	var contador=0;
 	var acumulador=0;
-	var respuesta='si';
+	var seguir;
+
+do{
+
+	numero=parseInt(prompt("Ibgrese un numero"));
+	acumulador=acumulador + numero;
+	contador ++;
+	seguir=prompt("quiere continuar?")
+
+}while(seguir == "s");
+
+
+
+	
 
 
 document.getElementById('suma').value=acumulador;
