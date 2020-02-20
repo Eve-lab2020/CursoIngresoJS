@@ -1,31 +1,44 @@
 function mostrar() {
 
 	var numero;
+	var flag = 0;
 	var contador = 0;
 	var positivo = 0;
-	var negativo =-1;
+	var negativo = 1;
 
 	var respuesta = 's';
 
 	do {
-		numero=parseInt(prompt("Los numeros positivos que ingrese se sumarán y lo negativos se multiplicaran "));
 
-		if (numero >= 0) {
-			
-			positivo = positivo + numero;
-			contador++;
-			respuesta = prompt("Desea continuar?");
+		numero = parseInt(prompt("Los numeros positivos que ingrese se sumarán y lo negativos se multiplicaran "));
 
-		} else {
+		while (isNaN(numero)) {
 
-			negativo = negativo * numero;
-			contador++;
-			respuesta = prompt("Desea continuar?");
+			numero = parseInt(prompt("Error Ingrese un número"));
 
 		}
 
+		if (numero < 0) {
+
+			negativo = negativo * numero;
+			
+			flag=1;
+
+
+		} else {
+
+			positivo = positivo + numero;
+			
+			
+
+		}
+
+		respuesta = prompt("Desea continuar?");
+
 
 	} while (respuesta == "s");
+
+	if (flag == 0) { negativo = 0; }
 
 
 	document.getElementById('suma').value = positivo;

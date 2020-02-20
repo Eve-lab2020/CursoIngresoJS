@@ -1,25 +1,42 @@
-function mostrar()
-{
+function mostrar() {
 
 	var num;
-	var contador=0;
+	var flag = 0;
 	var max;
 	var min;
 
-	var respuesta="s";
-
+	var respuesta;
 
 
 	do{
-		num=parseInt(prompt(" Ingrese un número"));
-		contador ++;
+		
+		num = parseInt(prompt("Ingrese un número"));
 
+		if (flag == 0) {
+			max = num;
+			min = num;
+			flag=1;	
 
+		} 
 
+			if (num > max) {
+				max = num;
+				
 
-
-
+			}
+			if (num < min) {
+				min = num;
+				
+			}
+		
+		respuesta=prompt("Desea continuar?");
+	
 	}while(respuesta =="s");
+	
+
+	document.getElementById("maximo").value=max;
+	document.getElementById("minimo").value=min;
+
 
 
 
